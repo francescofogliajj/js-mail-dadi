@@ -1,9 +1,9 @@
 // Generare un numero random da 1  a 6, sia per il giocatore sia per il computer.
-var giocatore = parseInt(prompt("Inserisci un numero da 0 a 6"));
-console.log(giocatore);
+var giocatore = Math.floor(Math.random() * 7);
+console.log(giocatore + " - Numero del giocatore");
 
 var computer = Math.floor(Math.random() * 7);
-console.log(computer);
+console.log(computer+ " - Numero del computer");
 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 if (giocatore > computer) {
