@@ -16,7 +16,7 @@ for (var i = 0; i < mail.length; i++) {
 
 // stampa un messaggio appropriato sull’esito del controllo.
 if (trovata == true) {
-  alert("Puoi Accedere!")
+  alert("Puoi Accedere!");
 } else if (trovata == false) {
-  alert("Non Puoi Accedere!")
+  alert("Non Puoi Accedere!");
 }
